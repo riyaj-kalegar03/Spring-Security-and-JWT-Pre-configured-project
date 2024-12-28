@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed on your system:
 ## Project Structure
 
 ```
-project-root/
+Spring_Security_Jwt/
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -46,13 +46,15 @@ project-root/
    ```bash
    git clone https://github.com/riyaj-kalegar03/Spring-Security-and-JWT-Pre-configured-project.git
 
-   cd <repository-name>
+    cd Spring-Security-and-JWT-Pre-configured-project
+
    ```
 
 2. **Update Configuration**
    Update the `application.properties` file with your database and JWT secret details:
 
    ```properties
+   spring.application.name=Security-JWt-Application
    spring.datasource.url=jdbc:mysql://localhost:3306/your_db
    spring.datasource.username=your_username
    spring.datasource.password=your_password
